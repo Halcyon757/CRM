@@ -22,7 +22,7 @@ git clone https://github.com/Halcyon757/CRM.git
 ```
 Перейдите в директорию проекта
 ```bash
-cd crm-system
+cd CRM
 ```
 Запустите проект с помощью docker compose
 ```bash
