@@ -18,11 +18,11 @@
 ## Запуск проекта
 Выполните клонирование проекта
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/Halcyon757/CRM.git
 ```
 Перейдите в директорию проекта
 ```bash
-cd repository-name
+cd crm-system
 ```
 Запустите проект с помощью docker compose
 ```bash
