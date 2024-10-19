@@ -81,8 +81,8 @@ http://localhost:8080/api/sellers/2
     "name": "Обновленное Имя",
     "contactInfo": "Обновленная Контактная информация",
     "registrationDate": "2024-01-01T12:00:00"
-  } ```
-  *Навигация в Postman: под панелью URL выберите Body -> raw -> JSON (в списке справа)*
+  }
+*Навигация в Postman: под панелью URL выберите Body -> raw -> JSON (в списке справа)*
 #### Пример запроса
 ```plaintext
 http://localhost:8080/api/sellers
