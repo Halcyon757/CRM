@@ -43,11 +43,12 @@ docker-compose up --build
 2. Введите имя сервера, например: `CRM`.
 3. Во вкладке **Connection** введите следующие данные:
     - **Host name/address**: `db`
-    - **Port**: `5432`\
+    - **Port**: `5432`
     - **Maintenance database**: `crm_db`
     - **Username**: `postgres`
     - **Password**: `postgres`
 4. Нажмите **Save**.
+В таблицах предзаписаны данные для удобства тестирования.
 ## Примеры использования API
 Система не имеет UI, используйте Postman для отправки запросов
 ### Продавцы (Sellers)
@@ -81,6 +82,7 @@ http://localhost:8080/api/sellers/2
     "contactInfo": "Обновленная Контактная информация",
     "registrationDate": "2024-01-01T12:00:00"
   }
+  Навигация в Postman: под панелью URL выберите Body -> raw -> JSON (в списке справа)
 #### Пример запроса
 ```plaintext
 http://localhost:8080/api/sellers
