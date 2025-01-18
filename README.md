@@ -34,7 +34,7 @@ docker-compose up --build
 Вы можете использовать **pgAdmin** для работы с базой данных PostgreSQL. Чтобы войти в pgAdmin, используйте следующие данные:
 
 - **URL для pgAdmin**: [http://localhost:5050](http://localhost:5050)
-- **Email для входа**: `admin@example.com`
+- **Email для входа**: `admin@admin.com`
 - **Пароль для входа**: `admin`
 
 ### Шаги для подключения в pgAdmin:
